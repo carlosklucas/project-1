@@ -10,7 +10,7 @@ color:rgb(112, 4, 4);
 font-size: 240%;
 }
 .nav_top a {
-background-color: white;
+background-color: rgba(255, 255, 255, 0.8);
 color:rgb(112, 4, 4);
 font-size: 220%;
 margin-right: 80px;
@@ -18,7 +18,7 @@ margin-right: 80px;
 .header {
 margin-top: 80px;
 display: inline-block;
-background-color: white;
+background-color: rgba(255, 255, 255, 0.8);
 }
 #logo {
 vertical-align: middle;
@@ -27,5 +27,5 @@ vertical-align: middle;
 font-size: 140%;
 color:rgb(112, 4, 4);
 display: inline-block;
-background-color: white;
+background-color: rgba(255, 255, 255, 0.8);
 }
