@@ -3,22 +3,58 @@
 
 <head>
     <title>Local Company For You</title>
-    <link rel="stylesheet" href="css/style.css" background>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <div class="main_div">
-        <nav class="nav_top">
-            <a href="./homepage.html"><img id="logo" src="./images/local_logo.jpg" height=100px alt="logo" /></a>
-            <a href="./secret.html">Our secret</a>
-            <a href="./goal.html">Our goal</a>
-            <a href="./activities.html">Our local activities</a>
-            <a href="./reliability.html">Our reliability</a>
-            <a href="./booking.html">Book now</a>
+    <div id="main-div">
+        <nav class="nav-top">
+            <ul>
+                <a href="./homepage.html"><img class="logo" src="./images/local_logo.jpg" height=160px alt="logo"/></a>
+                <li class="dropdown">
+                    <a class="drop-button">Our secret</a>
+                <div class="dropdown-list">
+                    <a href="./secret/secret.html">How we started?</a>
+                    <a href="./secret/team.html">Meet our team</a>
+                </div>
+            </li>
+                <li class="dropdown">
+                    <a href="./vision/vision.html" class="drop-button">Our vision</a>
+                </li>
+                <li class="dropdown">
+                    <a class="drop-button">Our local activities</a>
+                    <div class="dropdown-list">
+                      <a href="./activities/fado.html">Fado night</a>
+                      <a href="./activities/gastronomy.html">Gastronomy night</a>
+                      <a href="./activities/beach.html">Beaches</a>
+                      <a href="./activities/bars.html">Best local bars</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="drop-button">Our reliability</a>
+                    <div class="dropdown-list">
+                      <a href="./reliability/comments.html">Our rating and coments</a>
+                      <a href="./reliability/partners.html">Our partners</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="drop-button">Book now</a>
+                    <div class="dropdown-list">
+                      <a href="./booking/contact.html">Contact us</a>
+                      <a href="./booking/find.html">Find us</a>
+                    </div>
+                </li>
+              </ul>
           </nav>
-    </div>
 
+          <div id="secondary-div-home">
+              <a id="img-home"><img src="./images/nata_home.jpg" style="margin-top: 50px; margin-left: 250px;" alt="Blue eye"/></a>
+              <a id="img-home"><img src="./images/casas_home.jpg" style="margin-top: 50px;" alt="Blue eye"/></a>
+              <a id="img-home"><img src="./images/electrico_home.jpg" style="margin-bottom: 20px; margin-left: 250px;" alt="Blue eye"/></a>
+              <a id="img-home"><img src="./images/ponte_home.jpg" alt="Blue eye"/></a>
+        </div>
 
+          </div>
+        <footer id="footer">Local Company For You@ copyright 2018<br></footer>
 </body>
 </html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Local Company For You</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="main-div">
+        <nav class="nav-top">
+            <ul>
+                <a href="../homepage.html"><img class="logo" src="../images/local_logo.jpg" alt="logo"/></a>
+                <li class="dropdown">
+                    <a class="drop-button">Our secret</a>
+                <div class="dropdown-list">
+                    <a href="../secret/secret.html">How we started?</a>
+                    <a href="../secret/team.html">Meet our team</a>
+                </div>
+            </li>
+                <li class="dropdown">
+                    <a href="../vision/vision.html" class="drop-button">Our vision</a>
+                </li>
+                <li class="dropdown">
+                    <a class="drop-button">Our local activities</a>
+                    <div class="dropdown-list">
+                      <a href="../activities/fado.html">Fado night</a>
+                      <a href="../activities/gastronomy.html">Gastronomy night</a>
+                      <a href="../activities/beach.html">Secret places</a>
+                      <a href="../activities/bars.html">Best local bars</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="drop-button">Our reliability</a>
+                    <div class="dropdown-list">
+                      <a href="../reliability/comments.html">Our rating and coments</a>
+                      <a href="../reliability/partners.html">Our partners</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="drop-button">Book now</a>
+                    <div class="dropdown-list">
+                      <a href="./contact.html">Contact us</a>
+                      <a href="./find.html">Find us</a>
+                    </div>
+                </li>
+              </ul>
+          </nav>
+
+<div class="form-activity">
+    <form action="https://hnitest.go.yj.fr" method="post">
+        <legend>
+            <h1 >
+                <span><i> Contact us: </i></span>
+          </h1>
+        </legend>
+        <label class="form-css" for="firstname">First name:</label><br>
+        <input class="form-css" id="firstname" type="text" name="firstname" placeholder="First name"/><br>
+        <label class="form-css" for="lastname">Last name:</label><br>
+        <input class="form-css" id="lastname" type="text" name="lastname" placeholder="Last name"/><br>
+        <label class="form-css" for="email">Your email:</label><br>
+        <input class="form-css" id="email" type="email" name="email" placeholder="Email" /><br><br>
+        <label class="form-css" for="activity">Choose the activity:</label><br>
+        <select class="form-css" name="activity" id="activity">
+            <option value="Portugal">Fado night</option>
+            <option value="Germany">Gastronomy</option>
+            <option value="France">Beaches</option>
+            <option value="Spain">Bars</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <label class="form-css" for="request">Your request:</label><br>
+        <textarea class="form-css" name="request" id="request" cols="66" rows="10" placeholder="Tell us when, which activity and how many people."></textarea><br>
+        <label class="form-css" for="country">Nationality:</label><br>
+        <select class="form-css" name="country" id="country">
+            <option value="Portugal">Portugal</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Spain">Spain</option>
+            <option value="Italy">Italy</option>
+            <option value="England">England</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <input type="submit" value="Submit"><br>
+        <br>
+      </form>
+      <br>
+</div>               
+            </div>
+            <footer id="footer">Local Company For You@ copyright 2018<br></footer>
+        </body>
+</html>
